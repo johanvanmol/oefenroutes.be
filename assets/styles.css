@@ -1,0 +1,43 @@
+/* style om content niet achter fixed navbar te laten verdwijnen */
+body {
+  min-height: 75rem;
+  padding-top: 4.5rem;
+  /* Google fonts */
+  font-family: 'Open Sans', sans-serif;
+}
+
+.bg-navbar {
+  /* achtergrondkleur navbar */background-color: #E0EDE7;
+}
+
+footer {
+  background-color: #E0EDE7;
+  margin-top: 3rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #434745;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  padding: 0.5rem;
+}
+
+li.odd {
+  background-color: #E0EDE7;
+}
+
+.text-highlight {
+  font-style: normal;
+  border-radius: 1em 0 1em 0;
+  text-shadow: 1px 1px 1px #fff;
+  background-image:
+    linear-gradient(-100deg,
+      rgba(255,250,150,0.15),
+      rgba(255,250,150,0.8) 100%,
+      rgba(255,250,150,0.25)
+    );
+}
